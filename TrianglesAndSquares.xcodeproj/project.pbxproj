@@ -17,7 +17,7 @@
 		DEF856AC2A9114310020B30F /* TrianglesAndSquaresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF856AB2A9114310020B30F /* TrianglesAndSquaresTests.swift */; };
 		DEF856B62A9114310020B30F /* TrianglesAndSquaresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF856B52A9114310020B30F /* TrianglesAndSquaresUITests.swift */; };
 		DEF856B82A9114310020B30F /* TrianglesAndSquaresUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF856B72A9114310020B30F /* TrianglesAndSquaresUITestsLaunchTests.swift */; };
-		DEF856C52A9128D90020B30F /* NestedShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF856C42A9128D90020B30F /* NestedShapesView.swift */; };
+		DEF856C52A9128D90020B30F /* TriangleWithSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF856C42A9128D90020B30F /* TriangleWithSquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		DEF856B12A9114310020B30F /* TrianglesAndSquaresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrianglesAndSquaresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF856B52A9114310020B30F /* TrianglesAndSquaresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglesAndSquaresUITests.swift; sourceTree = "<group>"; };
 		DEF856B72A9114310020B30F /* TrianglesAndSquaresUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglesAndSquaresUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DEF856C42A9128D90020B30F /* NestedShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedShapesView.swift; sourceTree = "<group>"; };
+		DEF856C42A9128D90020B30F /* TriangleWithSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleWithSquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,12 @@
 				DEF856912A91142F0020B30F /* AppDelegate.swift */,
 				DEF856932A91142F0020B30F /* SceneDelegate.swift */,
 				DEF856952A91142F0020B30F /* ViewController.swift */,
+				DEF856C42A9128D90020B30F /* TriangleWithSquareView.swift */,
 				DEF856972A91142F0020B30F /* Main.storyboard */,
 				DEF8569D2A9114310020B30F /* Assets.xcassets */,
 				DEF8569F2A9114310020B30F /* LaunchScreen.storyboard */,
 				DEF856A22A9114310020B30F /* Info.plist */,
 				DEF8569A2A91142F0020B30F /* TrianglesAndSquares.xcdatamodeld */,
-				DEF856C42A9128D90020B30F /* NestedShapesView.swift */,
 			);
 			path = TrianglesAndSquares;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF856C52A9128D90020B30F /* NestedShapesView.swift in Sources */,
+				DEF856C52A9128D90020B30F /* TriangleWithSquareView.swift in Sources */,
 				DEF8569C2A91142F0020B30F /* TrianglesAndSquares.xcdatamodeld in Sources */,
 				DEF856962A91142F0020B30F /* ViewController.swift in Sources */,
 				DEF856922A91142F0020B30F /* AppDelegate.swift in Sources */,
